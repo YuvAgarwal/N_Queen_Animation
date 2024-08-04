@@ -1,0 +1,91 @@
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color:rgb(246, 214, 175);
+}
+div {
+  text-align: center;
+}
+table {
+  margin: 0 auto;
+  margin-top: 10vh;
+  border-collapse: collapse;
+}
+td {
+  margin: 1px;
+  width: 5rem;
+  height: 5rem;
+  border: 3px solid #653200;
+}
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+  background-color: #FFCE9E; 
+}
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+  background-color: #D18B47; 
+}
+.q {
+  background-color: grey;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input input {
+  border-radius: 5px;
+  align-items: center;
+  width: 7rem;
+  height: 60px;
+  text-align: center;
+  font-size: 17px;
+}
+.controls{
+  margin-top: 10px;
+}
+.submit-btn , .pause-play-btn {
+  border-radius: 5px;
+  height:60px;
+  width: 6rem;
+  background-color: rgb(237, 220, 245);
+  cursor: pointer;
+}
+.input .btn .header {
+  padding: 30px;
+  text-align: center;
+  background: #beebe2;
+  color: white;
+  font-size: 20px;
+}
+h1{
+  font-size: 30px;
+}
+h3{
+  text-align: right;
+  padding-right: 30px;
+  font-size: 25px;
+}
+label{
+  font-size: 25px;
+}
+.queen-symbol {
+  font-size: 50px;
+}
+.invalid-queen-symbol {
+  color: red;
+  font-size: 50px;
+}
+.message-text {
+  font-weight: bold;
+  font-size: 28px;
+}
+.highlighted-cell {
+  background-color: red;
+}
+.invalid-cell {
+  background-color: red;
+}
+
